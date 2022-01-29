@@ -54,7 +54,6 @@ if (isset($_GET["saved"])) { // check if saved button was clicked
     // loop through person and cost array
     for ($i = 0; $i < count($personAndCost)-1; $i++) {
         // insert each person and their total amount
-        echo $personAndCost[$i][0] . " " . $personAndCost[$i][1];
         $pplAndTotal_statement->bind_param("sdi", $personAndCost[$i][0], $personAndCost[$i][1], $receipt_id); 
         $executed_pplAndTotal = $pplAndTotal_statement->execute();
         if (!$executed_pplAndTotal) {
