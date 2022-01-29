@@ -1,0 +1,61 @@
+#saved-receipts-heading {
+    text-align: center;
+}
+
+.card {
+    background-color: #F4F4F8;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    border: none;
+}
+
+.receipt-name {
+    float: left;
+}
+
+.receipt-date {
+    float: right;
+}
+
+.clearfloat {
+    clear: both;
+}
+
+/* make table columns even */
+table {
+    table-layout: fixed;
+    width: 100% ;
+}
+
+td {
+    width: 25% ;
+} 
+
+.table-borderless >  tr > td {
+    border: none;
+}
+
+.receipt-total {
+    float: right;
+}
+
+.no-saved-receipts {
+    text-align: center;
+    margin-top: 5%;
+    font-style: italic;
+}
+
+.remove-from-saved {
+    color: #9ab49f;
+}
+
+#receipt-gif {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+}

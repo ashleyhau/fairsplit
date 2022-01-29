@@ -1,0 +1,38 @@
+html, body {
+    background-color: #F6EFE8;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.navbar {
+    background-color: #F6EFE8 !important;
+    border-color: #F6EFE8 !important;
+}
+
+/* title */
+.navbar .navbar-brand {
+    color: black;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: #2c2c2c;
+}
+
+/* navlinks */
+.navbar .navbar-nav > a {
+    color: #C4C4C4;
+    font-size: 15px;
+}
+
+/* change the color of active or hovered links */
+.navbar .nav-link.active,
+.navbar .nav-link:hover,
+.navbar .nav-link:focus  {
+    color: black;
+}
+
+.fa {
+    padding-top: 7px;
+}
