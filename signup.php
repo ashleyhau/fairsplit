@@ -44,7 +44,7 @@ if ( !isset($_SESSION["logged_in"]) || !$_SESSION["logged_in"] ) {
                 echo $mysqli->error;
             }
 
-            header("Location: http://fairsplit-app.herokuapp.com/");
+            header("Location: index.php");
             $statement->close();
             $mysqli->close();
         }
