@@ -44,7 +44,7 @@ if ( !isset($_SESSION["logged_in"]) || !$_SESSION["logged_in"] ) {
                 echo $mysqli->error;
             }
 
-            header("Location: index.php");
+            header("Location: ./");
             $statement->close();
             $mysqli->close();
         }
